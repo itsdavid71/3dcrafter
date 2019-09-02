@@ -15,4 +15,18 @@
     border: 0;
 }
 
-$blue: #123121;
+$blue: #08e8de;
+
+.main-button {
+    background: $blue;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    padding: 0 50px;
+    line-height: 35px;
+    margin: 0 60px;
+    transition: .2s;
+    &:hover {
+        background: #0fd6cc;
+    }
+}

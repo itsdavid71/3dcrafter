@@ -14,4 +14,20 @@
   padding: 0;
   border: 0;
 }
+
+.main-button {
+  background: #08e8de;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  padding: 0 50px;
+  line-height: 35px;
+  margin: 0 60px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.main-button:hover {
+  background: #0fd6cc;
+}
 /*# sourceMappingURL=styles.css.map */

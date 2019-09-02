@@ -42,22 +42,6 @@
   font-weight: bold;
 }
 
-.slider-main .slider-main-content .slider-main-buy .slider-main-button {
-  background: #08e8de;
-  height: 35px;
-  color: white;
-  cursor: pointer;
-  padding: 0 50px;
-  line-height: 35px;
-  margin: 0 60px;
-  -webkit-transition: .2s;
-  transition: .2s;
-}
-
-.slider-main .slider-main-content .slider-main-buy .slider-main-button:hover {
-  background: #0fd6cc;
-}
-
 .slider-main .slider-main-content .slider-main-img {
   background: url("../img-shop/printers/back-slide-printer-x-pro.png") center center/contain no-repeat;
   padding: 300px;

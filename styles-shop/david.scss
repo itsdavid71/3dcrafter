@@ -23,19 +23,7 @@
                 color: #242424;
                 font-weight: bold;
             }
-            .slider-main-button {
-                background: #08e8de;
-                height: 35px;
-                color: white;
-                cursor: pointer;
-                padding: 0 50px;
-                line-height: 35px;
-                margin: 0 60px;
-                transition: .2s;
-                &:hover {
-                    background: #0fd6cc;
-                }
-            }
+            
         }
         .slider-main-img {
             background: url('../img-shop/printers/back-slide-printer-x-pro.png') center center / contain no-repeat;
