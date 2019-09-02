@@ -1,0 +1,85 @@
+.slider-main .slider-main-content {
+  margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider-main .slider-main-content h1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.slider-main .slider-main-content .slider-main-text {
+  font-size: 64px;
+}
+
+.slider-main .slider-main-content .slider-main-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 40px 0;
+}
+
+.slider-main .slider-main-content .slider-main-buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider-main .slider-main-content .slider-main-buy .slider-main-price {
+  font-size: 32px;
+  color: #242424;
+  font-weight: bold;
+}
+
+.slider-main .slider-main-content .slider-main-buy .slider-main-button {
+  background: #08e8de;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  padding: 0 50px;
+  line-height: 35px;
+  margin: 0 60px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.slider-main .slider-main-content .slider-main-buy .slider-main-button:hover {
+  background: #0fd6cc;
+}
+
+.slider-main .slider-main-content .slider-main-img {
+  background: url("../img-shop/printers/back-slide-printer-x-pro.png") center center/contain no-repeat;
+  padding: 300px;
+}
+
+.x-b {
+  background: url("../img-shop/logos/x-b.svg") center center/contain no-repeat;
+  padding: 20px;
+}
+
+.xl-b {
+  background: url("../img-shop/logos/xl-b.svg") center center/contain no-repeat;
+  padding: 30px;
+}
+
+.x-pro-b {
+  background: url("../img-shop/logos/x-pro-b.svg") center center/contain no-repeat;
+  padding: 40px;
+}
+
+.xl-pro-b {
+  background: url("../img-shop/logos/xl-pro-b.svg") center center/contain no-repeat;
+  padding: 50px;
+}
+/*# sourceMappingURL=david.css.map */
