@@ -14,11 +14,12 @@
                 </div>
                 <div class="slider-main-buy">
                     <div class="slider-main-price price">299 000</div>
-                    <div class="slider-main-button">ЗАКАЗАТЬ</div>
+                    <div class="main-button">ЗАКАЗАТЬ</div>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 slider-main-images">
                 <div class="slider-main-img"></div>
+                <div class="slider-main-back-logo"></div>
             </div>
         </div>
     </div>

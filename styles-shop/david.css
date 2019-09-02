@@ -1,5 +1,5 @@
 .slider-main .slider-main-content {
-  margin-top: 200px;
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,9 +42,22 @@
   font-weight: bold;
 }
 
+.slider-main .slider-main-content .slider-main-images {
+  position: relative;
+}
+
 .slider-main .slider-main-content .slider-main-img {
   background: url("../img-shop/printers/back-slide-printer-x-pro.png") center center/contain no-repeat;
   padding: 300px;
+}
+
+.slider-main .slider-main-content .slider-main-back-logo {
+  background: url("../img-shop/logos/back-bukv-x.png") center center/contain no-repeat;
+  position: absolute;
+  padding: 350px;
+  top: -70px;
+  left: -370px;
+  z-index: -1;
 }
 
 .x-b {
