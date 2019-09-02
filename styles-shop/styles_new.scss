@@ -1,4 +1,8 @@
 $grey: #bcbcbc;
+$light_grey: #f7f7f7;
+$black: #242424;
+$dark-grey: #666666;
+$blue: #08e8de;
 
 header {
     background-color: black;
@@ -54,4 +58,68 @@ header {
         }
     }
 
+}
+
+.examples-main {
+    background-color: $light_grey;
+    .container {
+        .examples-main-like {
+            display: inline;
+            background: url('../img-shop/icons/3d-ico-1.svg') no-repeat;
+            height: 15px;
+            width: 15px;
+        }
+        p {
+            color: $dark-grey;
+            font-size: 18px;
+        }
+        h2 {
+            color: $black;
+            font-size: 40px;
+            text-transform: uppercase;
+            padding: 25px;
+        }
+        .centered {
+            text-align: center;
+        }
+        .examples-main-photos {
+            .examples-main-photo {
+                margin: 5px 10px;
+                width: 560px;
+                height: 380px;
+            }
+            .examples-main-photo-desc {
+                color: $light-grey;
+                font-size: 16px;                    
+                padding: 15px;
+            }
+            .first-photo {
+                background: url('../img-shop/examples/primer-1.jpg') center center / contain no-repeat;
+            }
+            .second-photo {
+                background: url('../img-shop/examples/primer-3.jpg') center center / contain no-repeat;
+            }
+            .third-photo {
+                background: url('../img-shop/examples/primer-2.jpg') center center / contain no-repeat;
+            }
+            .fourth-photo {
+                background: url('../img-shop/examples/primer-4.jpg') center center / contain no-repeat;
+            }
+        }
+        .examples-main-button-container {
+            display: flex;
+            justify-content: center;
+            .examples-main-button {
+                background: #08e8de;
+                height: 40px;
+                width: 240px;
+                color: white;
+                cursor: pointer;
+                line-height: 40px;
+                text-align: center;
+                margin: 30px 0px;
+                transition: 0.2s;
+            }
+        } 
+    }
 }
