@@ -1,4 +1,15 @@
+@font-face {
+    font-family: "CoreSansNRW01-55Medium";
+    src: url("../fonts/CORESANSNR55MEDIUM-WEBFONT.TTF");
+}
+  
+@font-face {
+    font-family: "CoreSansNRW01-55Regular";
+    src: url("../fonts/CORESANSNR55REGULAR-WEBFONT.TTF");
+}
+
 * {
+    font-family: "CoreSansNRW01-55Medium";
     margin: 0;
     padding: 0;
     border: 0;
