@@ -1,0 +1,57 @@
+$grey: #bcbcbc;
+
+header {
+    .container {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+        line-height: 70px;
+        .header_logo {
+            display: block;
+            background: url('../img-shop/logo.png') no-repeat;
+            height: 15px;
+            width: 1140px;
+        }
+        .header_city {
+            .header_map_icon {
+                display: inline;
+                background: url('../img-shop/header/placeholder.svg') no-repeat;
+                height: 15px;
+                width: 15px;
+            }
+            a {
+                color: $grey;
+                font-size: 16px;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+        }
+        .header_menu {
+            a {
+                color: $grey;
+                font-size: 16px;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 0px 5px;
+            }
+        }
+        .header_phone {
+            a {
+                color: $grey;
+                font-size: 16px;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 0px 5px;
+            }
+            .header_phone_icon {
+                display: inline;
+                background: url('../img-shop/header/telephone-menu.svg') no-repeat;
+                height: 15px;
+                width: 15px;
+            }
+        }
+    }
+
+}
