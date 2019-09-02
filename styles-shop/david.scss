@@ -1,3 +1,10 @@
+$blue: #08e8de;
+.flex {
+    display: flex;
+}
+.aic {
+    align-items: center;
+}
 .slider-main {
     .slider-main-content {
         margin-top: 100px;
@@ -58,4 +65,66 @@
 .xl-pro-b {
     background: url('../img-shop/logos/xl-pro-b.svg') center center / contain no-repeat;   
     padding: 50px;          
+}
+
+.printers-main {
+    margin-top: 100px;
+    .printer-name {
+        font-size: 50px;
+        color: $blue;
+        letter-spacing: 15px;
+    }
+    p {
+        margin-top: 30px;
+    }
+    .main-button {
+        margin-left: 0;
+    }
+    .printer-block {
+        margin-top: 200px;
+    }
+    .printer-block:last-child {
+        margin-bottom: 200px;
+    }
+    .printer-image {
+        padding: 200px;
+    }
+    .printer-image-1 {
+        background: url('../img-shop/printers/designer_x.png') center center / contain no-repeat;
+    }
+    .printer-image-2 {
+        background: url('../img-shop/printers/back-slide-printer-x.png') center center / contain no-repeat;
+    }
+    .printer-image-3 {
+        background: url('../img-shop/printers/back-slide-printer-x-pro.png') center center / contain no-repeat;
+    }
+    .more-info-button {
+        cursor: pointer;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 60px;
+            height: 1px;
+            right: -70px;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            background: #000;
+            transition: .2s;
+        }
+        &:hover::before {
+            width: 100px;
+            right: -110px;
+        }
+    }
+    .printer-price {
+        text-align: right;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 20px 80px;
+    }
+}
+.mt {
+    margin-top: 50px;
 }
