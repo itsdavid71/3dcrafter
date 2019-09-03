@@ -19,12 +19,11 @@ header .container {
 header .container .header_logo {
   display: block;
   background: url("../img-shop/logo.png") no-repeat;
-  height: 15px;
-  width: 1140px;
+  padding: 10px;
+  width: 155px;
 }
 
 header .container .header_city .header_map_icon {
-  display: inline;
   background: url("../img-shop/header/placeholder.svg") no-repeat;
   height: 15px;
   width: 15px;
@@ -56,8 +55,6 @@ header .container .header_phone a {
 header .container .header_phone .header_phone_icon {
   display: inline;
   background: url("../img-shop/header/telephone-menu.svg") no-repeat;
-  height: 15px;
-  width: 15px;
 }
 
 .examples-main {
@@ -67,8 +64,6 @@ header .container .header_phone .header_phone_icon {
 .examples-main .container .examples-main-like {
   display: inline;
   background: url("../img-shop/icons/3d-ico-1.svg") no-repeat;
-  height: 15px;
-  width: 15px;
 }
 
 .examples-main .container p {
@@ -135,5 +130,112 @@ header .container .header_phone .header_phone_icon {
   margin: 10px 0px 40px 0px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+
+.clients-main {
+  background-color: #f7f7f7;
+}
+
+.clients-main .container h2 {
+  color: #242424;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 50px 25px;
+}
+
+.clients-main .container .clients-main-logos {
+  padding: 0px 50px 50px 50px;
+}
+
+.clients-main .container .clients-main-logos .clients-main-logo {
+  margin: 5px 10px;
+  width: 250px;
+  height: 80px;
+}
+
+.clients-main .container .clients-main-logos .first-logo {
+  background: url("../img-shop/clients/renault.png") center center/contain no-repeat;
+}
+
+.clients-main .container .clients-main-logos .second-logo {
+  background: url("../img-shop/clients/ehrmann.png") center center/contain no-repeat;
+}
+
+.clients-main .container .clients-main-logos .third-logo {
+  background: url("../img-shop/clients/rehau.png") center center/contain no-repeat;
+}
+
+.clients-main .container .clients-main-logos .fourth-logo {
+  background: url("../img-shop/clients/samsung.png") center center/contain no-repeat;
+}
+
+footer {
+  background: #242424;
+}
+
+footer .container .footer_copyright {
+  color: #f7f7f7;
+  text-align: center;
+  padding: 25px 0px;
+}
+
+footer .container .footer_blocks {
+  padding-top: 50px;
+}
+
+footer .container .footer_blocks .footer_block p {
+  color: #f7f7f7;
+  padding: 10px 5px;
+  font-size: 15px;
+}
+
+footer .container .footer_blocks .footer_block .footer_title {
+  padding: 10px 0px;
+  color: #f7f7f7;
+}
+
+footer .container .footer_blocks .footer_block .last_title {
+  margin-top: 10px;
+}
+
+footer .container .footer_blocks .footer_block .footer_link {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+footer .container .footer_blocks .footer_block .footer_logo {
+  display: block;
+  background: url("../img-shop/logo.png") center center/contain no-repeat;
+  padding: 15px;
+  width: 155px;
+  margin: 10px 5px;
+}
+
+footer .container .footer_blocks .footer_block .footer_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .container .footer_blocks .footer_block .footer_social .footer_social_logo {
+  padding: 15px;
+  margin: 5px;
+  display: inline;
+}
+
+footer .container .footer_blocks .footer_block .footer_social .footer_social_inst {
+  background: url("../img-shop/social/instagram.svg") center center/contain no-repeat;
+}
+
+footer .container .footer_blocks .footer_block .footer_social .footer_social_fb {
+  background: url("../img-shop/social/facebook.svg") center center/contain no-repeat;
+}
+
+footer .container .footer_blocks .footer_block .footer_social .footer_social_vk {
+  background: url("../img-shop/social/vk.svg") center center/contain no-repeat;
+}
+
+footer .container .footer_blocks .footer_block .footer_social .footer_social_twitter {
+  background: url("../img-shop/social/twitter.svg") center center/contain no-repeat;
 }
 /*# sourceMappingURL=styles_new.css.map */
