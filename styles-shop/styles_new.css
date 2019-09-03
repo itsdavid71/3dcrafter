@@ -61,9 +61,9 @@ header .container .header_phone .header_phone_icon {
   background-color: #f7f7f7;
 }
 
-.examples-main .container .examples-main-like {
-  display: inline;
-  background: url("../img-shop/icons/3d-ico-1.svg") no-repeat;
+.examples-main .container .examples-main-icon {
+  padding: 25px;
+  background: url("../img-shop/icons/3d-ico-1.svg") center center/contain no-repeat;
 }
 
 .examples-main .container p {
@@ -237,5 +237,57 @@ footer .container .footer_blocks .footer_block .footer_social .footer_social_vk 
 
 footer .container .footer_blocks .footer_block .footer_social .footer_social_twitter {
   background: url("../img-shop/social/twitter.svg") center center/contain no-repeat;
+}
+
+.control-shop {
+  background: #f7f7f7;
+}
+
+.control-shop .container .control-shop-content .control-shop-text-block {
+  margin: 50px 0px;
+}
+
+.control-shop .container .control-shop-content .control-shop-text-block .control-shop-icon {
+  padding: 35px;
+  display: inline;
+  background: url("../img-shop/icons/3d-ico-13.svg") center center/contain no-repeat;
+}
+
+.control-shop .container .control-shop-content .control-shop-text-block h2 {
+  color: #242424;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 50px 0px 30px 0px;
+}
+
+.control-shop .container .control-shop-content .control-shop-text-block p {
+  color: #666666;
+}
+
+.control-shop .container .control-shop-content .control-shop-text-block .control-shop-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.control-shop .container .control-shop-content .control-shop-text-block .control-shop-button {
+  width: calc(100%/4);
+  height: 90px;
+  text-align: center;
+  border: 2px solid #08e8de;
+  margin: 5px;
+}
+
+.control-shop .container .control-shop-content .control-shop-image-block .control-shop-image {
+  padding: 300px;
+  margin: 100px 0px;
+  background: url("../img-shop/bgs/3dprinter-picaso-extruder.png") center center/contain no-repeat;
 }
 /*# sourceMappingURL=styles_new.css.map */

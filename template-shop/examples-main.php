@@ -1,6 +1,6 @@
 <div class="examples-main">
     <div class="container">
-        <div class="examples-main-like"></div>
+        <div class="examples-main-icon"></div>
         <h2>Хочешь печатать также?</h2>
         <div class="row examples-main-photos">
             <div class="col-md-6">
