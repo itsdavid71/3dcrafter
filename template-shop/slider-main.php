@@ -14,7 +14,7 @@
                 </div>
                 <div class="slider-main-buy">
                     <div class="slider-main-price price">299 000</div>
-                    <div class="main-button">ЗАКАЗАТЬ</div>
+                    <div onclick="order_button()" class="main-button">ЗАКАЗАТЬ</div>
                 </div>
             </div>
             <div class="col-md-5 slider-main-images">

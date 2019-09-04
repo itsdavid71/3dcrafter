@@ -23,7 +23,7 @@
         <h2 class="centered">Научим печатать также!</h2>
         <p class="centered">Каждому покупателю - бесплатное обучение.<br>Научим как пользоваться, как ухаживать и обслуживать</p>
         <div class="examples-main-button-container">
-            <div class="examples-main-button">ЗАКАЗАТЬ ЗВОНОК</div>
+            <div onclick="order_button()" class="examples-main-button">ЗАКАЗАТЬ ЗВОНОК</div>
         </div>
     </div>
 </div>
