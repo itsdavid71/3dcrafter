@@ -286,6 +286,50 @@ footer {
             }
         }
     }
+}
+
+.tech-spec-shop {
+    .container {
+        .tech-spec-shop-content {
+            .tech-spec-shop-text-block {
+                margin: 50px 0px;
+                .tech-spec-shop-icon {
+                    padding: 35px;
+                    display: inline;
+                    background: url('../img-shop/icons/3d-ico-12.svg') center center / contain no-repeat;
+                }
+                h2 {
+                    color: $black;
+                    font-size: 40px;
+                    text-transform: uppercase;
+                    padding: 50px 0px 30px 0px;
+                }
+                p {
+                    color: $dark-grey;
+                }
+                .tech-spec-shop-buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    box-sizing: border-box;
+                }
+                .tech-spec-shop-button {
+                    width: calc(100%/4);
+                    height: 90px;
+                    text-align: center;
+                    border: 2px solid $blue;
+                    margin: 5px;
+                }
+            }
+            .tech-spec-shop-image-block {
+                .tech-spec-shop-image {
+                    padding: 300px;
+                    margin: 100px 0px;
+                    background: url('../img-shop/bgs/scheme.jpg') center center / contain no-repeat;
+                }
+            }
+        }
+    }
     
 
 }

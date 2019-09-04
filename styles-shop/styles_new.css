@@ -340,4 +340,52 @@ footer .container .footer_blocks .footer_block .footer_social .footer_social_twi
   margin: 100px 0px;
   background: url("../img-shop/bgs/3dprinter-picaso-extruder.png") center center/contain no-repeat;
 }
+
+.tech-spec-shop .container .tech-spec-shop-content .tech-spec-shop-text-block {
+  margin: 50px 0px;
+}
+
+.tech-spec-shop .container .tech-spec-shop-content .tech-spec-shop-text-block .tech-spec-shop-icon {
+  padding: 35px;
+  display: inline;
+  background: url("../img-shop/icons/3d-ico-12.svg") center center/contain no-repeat;
+}
+
+.tech-spec-shop .container .tech-spec-shop-content .tech-spec-shop-text-block h2 {
+  color: #242424;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 50px 0px 30px 0px;
+}
+
+.tech-spec-shop .container .tech-spec-shop-content .tech-spec-shop-text-block p {
+  color: #666666;
+}
+
+.tech-spec-shop .container .tech-spec-shop-content .tech-spec-shop-text-block .tech-spec-shop-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tech-spec-shop .container .tech-spec-shop-content .tech-spec-shop-text-block .tech-spec-shop-button {
+  width: calc(100%/4);
+  height: 90px;
+  text-align: center;
+  border: 2px solid #08e8de;
+  margin: 5px;
+}
+
+.tech-spec-shop .container .tech-spec-shop-content .tech-spec-shop-image-block .tech-spec-shop-image {
+  padding: 300px;
+  margin: 100px 0px;
+  background: url("../img-shop/bgs/scheme.jpg") center center/contain no-repeat;
+}
 /*# sourceMappingURL=styles_new.css.map */

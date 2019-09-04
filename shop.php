@@ -7,4 +7,6 @@
 
 <?php include 'template-shop/shop/control-shop.php' ?>
 
+<?php include 'template-shop/shop/tech-spec-shop.php' ?>
+
 <?php include 'template-shop/footer.php' ?>
