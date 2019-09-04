@@ -60,7 +60,7 @@
             </div>
             <div class="col-md-5 slider-main-images slider-main-images-2 slidem2 slidem animRight">
                 <div class="slider-main-img"></div>
-                <div class="slider-main-back-logo" style="background: url('img-shop/logos/back-bukv-xl') center center / contain no-repeat;"></div>
+                <div class="slider-main-back-logo" style="background: url('img-shop/logos/back-bukv-xl.png') center center / contain no-repeat;"></div>
             </div>
             <div class="col-md-5 slider-main-images slider-main-images-3 slidem3 slidem animRight">
                 <div class="slider-main-img"></div>
