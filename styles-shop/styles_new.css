@@ -135,6 +135,29 @@ header .container .header-content .header_phone .header_phone_icon {
   height: 380px;
 }
 
+.examples-main .container .examples-main-photos .examples-shop-first {
+  color: #666666;
+  padding: 20px 0px;
+}
+
+.examples-main .container .examples-main-photos .examples-shop-first h4 {
+  color: #08e8de;
+  text-transform: uppercase;
+}
+
+.examples-main .container .examples-main-photos .examples-shop-first .examples-shop-button {
+  background: #08e8de;
+  height: 40px;
+  width: 200px;
+  color: white;
+  cursor: pointer;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 .examples-main .container .examples-main-photos .examples-main-photo-desc {
   color: #f7f7f7;
   font-size: 16px;
