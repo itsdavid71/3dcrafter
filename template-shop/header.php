@@ -13,19 +13,22 @@
 <body>
     <header>
         <div class="container">
-            <div class="header_logo col-md-2"></div>
-            <div class="header_city col-md-1">
-                <div class="header_map_icon"></div>
-                <a>Москва</a>
+            <div class="row header-content"> 
+                <div class="header_logo col-md-2"></div>
+                <div class="header_city col-md-2">
+                    <div class="header_map_icon"></div>
+                    <a>Москва</a>
+                </div>
+                <div class="header_menu col-md-5">
+                    <a href="#">Компания</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Стоимость</a>
+                </div>
+                <div class="header_phone col-md-2">
+                    <a href="tel:+74950044187">+7 495 00-44-187</a>
+                    <div class="header_phone_icon"></div>
+                </div>
             </div>
-            <div class="header_menu">
-                <a href="#">Компания</a>
-                <a href="#">Услуги</a>
-                <a href="#">Стоимость</a>
-            </div>
-            <div class="header_phone">
-                <a href="tel:+74950044187">+7 495 00-44-187</a>
-                <div class="header_phone_icon"></div>
-            </div>
+        </div>
     </header>
     
