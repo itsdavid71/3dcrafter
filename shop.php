@@ -9,4 +9,6 @@
 
 <?php include 'template-shop/shop/tech-spec-shop.php' ?>
 
+<?php include 'template-shop/shop/form-shop.php' ?>
+
 <?php include 'template-shop/footer.php' ?>
