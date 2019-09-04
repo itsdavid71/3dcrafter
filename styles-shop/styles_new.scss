@@ -109,7 +109,6 @@ header {
         }  
         .examples-main-photos {
             .examples-main-photo {
-                margin: 5px 10px;
                 width: 550px;
                 height: 380px;
             }
@@ -352,6 +351,38 @@ footer {
             }
         }
     }
-    
+}
 
+.polygon-shop {
+    .container {
+        .polygon-shop-content {
+            position: relative;
+            height: 800px;
+            margin: 70px 0px;
+            background: url('../img-shop/bgs/picaso-3d-polygon.jpg') center center / contain no-repeat;
+            .polygon-shop-text-block {
+                background: white;
+                padding-bottom: 50px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                .polygon-shop-icon {
+                    padding: 35px;
+                    display: inline;
+                    position: relative;
+                    top: -50px;
+                    background: url('../img-shop/icons/3d-ico-7.svg') center center / contain no-repeat;
+                }
+                h2 {
+                    color: $black;
+                    font-size: 40px;
+                    text-transform: uppercase;
+                    padding: 50px 0px 30px 0px;
+                }
+                p {
+                    color: $dark-grey;
+                }
+            }
+        }
+    }
 }
