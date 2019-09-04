@@ -2,7 +2,7 @@ header {
   background-color: black;
 }
 
-header .container {
+header .container .header-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,35 +16,38 @@ header .container {
   line-height: 70px;
 }
 
-header .container .header_logo {
+header .container .header-content .header_logo {
   display: block;
   background: url("../img-shop/logo.png") no-repeat;
   padding: 10px;
   width: 155px;
 }
 
-header .container .header_city .header_map_icon {
+header .container .header-content .header_city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .header-content .header_city .header_map_icon {
   background: url("../img-shop/header/placeholder.svg") no-repeat;
-  height: 15px;
-  width: 15px;
+  display: inline-block;
+  padding: 11px;
+  position: relative;
+  top: -3px;
 }
 
-header .container .header_city a {
+header .container .header-content .header_city a {
   color: #bcbcbc;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-header .container .header_menu a {
-  color: #bcbcbc;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 0px 5px;
-}
-
-header .container .header_phone a {
+header .container .header-content .header_menu a {
   color: #bcbcbc;
   font-size: 16px;
   text-decoration: none;
@@ -52,40 +55,107 @@ header .container .header_phone a {
   padding: 0px 5px;
 }
 
-header .container .header_phone .header_phone_icon {
+header .container .header-content .header_phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .header-content .header_phone a {
+  color: #bcbcbc;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header .container .header-content .header_phone .header_phone_icon {
   display: inline;
-  background: url("../img-shop/header/telephone-menu.svg") no-repeat;
+  padding: 11px;
+  position: relative;
+  right: -10px;
+  cursor: pointer;
+  background: url("../img-shop/header/mail3-menu.svg") no-repeat;
 }
 
 .examples-main {
   background-color: #f7f7f7;
+  padding: 70px 0px;
 }
 
-.examples-main .container .examples-main-icon {
-  padding: 25px;
+.examples-main .container .examples-main-desc .examples-main-icon {
+  display: inline-block;
+  padding: 50px;
   background: url("../img-shop/icons/3d-ico-1.svg") center center/contain no-repeat;
 }
 
-.examples-main .container p {
+.examples-main .container .examples-main-desc h2 {
+  color: #242424;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 25px 0px;
+}
+
+.examples-main .container .examples-main-desc .centered {
+  text-align: center;
+}
+
+.examples-main .container .examples-main-desc p {
   color: #666666;
   font-size: 18px;
 }
 
-.examples-main .container h2 {
-  color: #242424;
-  font-size: 40px;
-  text-transform: uppercase;
-  padding: 25px;
+.examples-main .container .examples-main-desc .examples-main-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.examples-main .container .centered {
+.examples-main .container .examples-main-desc .examples-main-button-container .examples-main-button {
+  background: #08e8de;
+  height: 40px;
+  width: 240px;
+  color: white;
+  cursor: pointer;
+  line-height: 40px;
   text-align: center;
+  margin: 10px 0px 40px 0px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .examples-main .container .examples-main-photos .examples-main-photo {
   margin: 5px 10px;
   width: 550px;
   height: 380px;
+}
+
+.examples-main .container .examples-main-photos .examples-shop-first {
+  color: #666666;
+  padding: 20px 0px;
+}
+
+.examples-main .container .examples-main-photos .examples-shop-first h4 {
+  color: #08e8de;
+  text-transform: uppercase;
+}
+
+.examples-main .container .examples-main-photos .examples-shop-first .examples-shop-button {
+  background: #08e8de;
+  height: 40px;
+  width: 200px;
+  color: white;
+  cursor: pointer;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .examples-main .container .examples-main-photos .examples-main-photo-desc {
@@ -110,30 +180,9 @@ header .container .header_phone .header_phone_icon {
   background: url("../img-shop/examples/primer-4.jpg") center center/contain no-repeat;
 }
 
-.examples-main .container .examples-main-button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.examples-main .container .examples-main-button-container .examples-main-button {
-  background: #08e8de;
-  height: 40px;
-  width: 240px;
-  color: white;
-  cursor: pointer;
-  line-height: 40px;
-  text-align: center;
-  margin: 10px 0px 40px 0px;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
 .clients-main {
   background-color: #f7f7f7;
+  padding: 70px 0px;
 }
 
 .clients-main .container h2 {
@@ -173,8 +222,11 @@ footer {
   background: #242424;
 }
 
+footer .container {
+  color: #666666;
+}
+
 footer .container .footer_copyright {
-  color: #f7f7f7;
   text-align: center;
   padding: 25px 0px;
 }
@@ -184,14 +236,12 @@ footer .container .footer_blocks {
 }
 
 footer .container .footer_blocks .footer_block p {
-  color: #f7f7f7;
   padding: 10px 5px;
   font-size: 15px;
 }
 
 footer .container .footer_blocks .footer_block .footer_title {
   padding: 10px 0px;
-  color: #f7f7f7;
 }
 
 footer .container .footer_blocks .footer_block .last_title {
@@ -200,13 +250,13 @@ footer .container .footer_blocks .footer_block .last_title {
 
 footer .container .footer_blocks .footer_block .footer_link {
   text-decoration: none;
-  color: #f7f7f7;
+  color: #666666;
 }
 
 footer .container .footer_blocks .footer_block .footer_logo {
   display: block;
-  background: url("../img-shop/logo.png") center center/contain no-repeat;
-  padding: 15px;
+  background: url("../img-shop/logo-footer.png") center center/contain no-repeat;
+  padding: 13px;
   width: 155px;
   margin: 10px 5px;
 }

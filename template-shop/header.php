@@ -9,24 +9,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles-shop/styles.css">
     <link rel="stylesheet" href="styles-shop/styles_new.css">
+    <link rel="stylesheet" href="styles-shop/david.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="header_logo col-md-2"></div>
-            <div class="header_city col-md-1">
-                <div class="header_map_icon"></div>
-                <a>Москва</a>
+            <div class="row header-content"> 
+                <div class="header_logo col-md-2"></div>
+                <div class="header_city col-md-2">
+                    <div class="header_map_icon"></div>
+                    <a>Москва</a>
+                </div>
+                <div class="header_menu col-md-5">
+                    <a href="#">Компания</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Стоимость</a>
+                </div>
+                <div class="header_phone col-md-2">
+                    <a href="tel:+74950044187">+7 495 00-44-187</a>
+                    <div class="header_phone_icon"></div>
+                </div>
             </div>
-            <div class="header_menu">
-                <a href="#">Компания</a>
-                <a href="#">Услуги</a>
-                <a href="#">Стоимость</a>
-            </div>
-            <div class="header_phone">
-                <a href="tel:+74950044187">+7 495 00-44-187</a>
-                <div class="header_phone_icon"></div>
-            </div>
+        </div>
     </header>
     

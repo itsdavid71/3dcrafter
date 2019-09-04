@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="styles-shop/david.css">
 <div class="slider-main">
     <div class="container">
         <div class=" row slider-main-content">
