@@ -130,7 +130,6 @@ header .container .header-content .header_phone .header_phone_icon {
 }
 
 .examples-main .container .examples-main-photos .examples-main-photo {
-  margin: 5px 10px;
   width: 550px;
   height: 380px;
 }
@@ -425,5 +424,39 @@ footer .container .footer_blocks .footer_block .footer_social .footer_social_twi
   padding: 300px;
   margin: 100px 0px;
   background: url("../img-shop/bgs/scheme.jpg") center center/contain no-repeat;
+}
+
+.polygon-shop .container .polygon-shop-content {
+  position: relative;
+  height: 800px;
+  margin: 70px 0px;
+  background: url("../img-shop/bgs/picaso-3d-polygon.jpg") center center/contain no-repeat;
+}
+
+.polygon-shop .container .polygon-shop-content .polygon-shop-text-block {
+  background: white;
+  padding-bottom: 50px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.polygon-shop .container .polygon-shop-content .polygon-shop-text-block .polygon-shop-icon {
+  padding: 35px;
+  display: inline;
+  position: relative;
+  top: -50px;
+  background: url("../img-shop/icons/3d-ico-7.svg") center center/contain no-repeat;
+}
+
+.polygon-shop .container .polygon-shop-content .polygon-shop-text-block h2 {
+  color: #242424;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 50px 0px 30px 0px;
+}
+
+.polygon-shop .container .polygon-shop-content .polygon-shop-text-block p {
+  color: #666666;
 }
 /*# sourceMappingURL=styles_new.css.map */
