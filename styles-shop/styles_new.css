@@ -199,8 +199,11 @@ footer {
   background: #242424;
 }
 
+footer .container {
+  color: #666666;
+}
+
 footer .container .footer_copyright {
-  color: #f7f7f7;
   text-align: center;
   padding: 25px 0px;
 }
@@ -210,14 +213,12 @@ footer .container .footer_blocks {
 }
 
 footer .container .footer_blocks .footer_block p {
-  color: #f7f7f7;
   padding: 10px 5px;
   font-size: 15px;
 }
 
 footer .container .footer_blocks .footer_block .footer_title {
   padding: 10px 0px;
-  color: #f7f7f7;
 }
 
 footer .container .footer_blocks .footer_block .last_title {
@@ -226,13 +227,13 @@ footer .container .footer_blocks .footer_block .last_title {
 
 footer .container .footer_blocks .footer_block .footer_link {
   text-decoration: none;
-  color: #f7f7f7;
+  color: #666666;
 }
 
 footer .container .footer_blocks .footer_block .footer_logo {
   display: block;
-  background: url("../img-shop/logo.png") center center/contain no-repeat;
-  padding: 15px;
+  background: url("../img-shop/logo-footer.png") center center/contain no-repeat;
+  padding: 13px;
   width: 155px;
   margin: 10px 5px;
 }

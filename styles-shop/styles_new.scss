@@ -170,8 +170,8 @@ header {
 footer {
     background: $black;
     .container {
+        color: $dark-grey;
         .footer_copyright {
-            color: $light-grey;
             text-align: center;
             padding: 25px 0px;
         }
@@ -179,25 +179,23 @@ footer {
             padding-top: 50px;
             .footer_block {
                 p {
-                    color: $light_grey;
                     padding: 10px 5px;
                     font-size: 15px;
                 }
                 .footer_title {
                     padding: 10px 0px;
-                    color: $light_grey;
                 }
                 .last_title {
                     margin-top: 10px;
                 }
                 .footer_link {
                     text-decoration: none;
-                    color: $light_grey;
+                    color: $dark_grey;
                 }
                 .footer_logo {
                     display: block;
-                    background: url('../img-shop/logo.png') center center / contain no-repeat;
-                    padding: 15px;
+                    background: url('../img-shop/logo-footer.png') center center / contain no-repeat;
+                    padding: 13px;
                     width: 155px;
                     margin: 10px 5px;
                 }
