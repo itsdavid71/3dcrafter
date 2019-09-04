@@ -45,4 +45,8 @@
 .main-button:hover {
   background: #0fd6cc;
 }
+
+.zi100 {
+  z-index: 100;
+}
 /*# sourceMappingURL=styles.css.map */

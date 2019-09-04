@@ -14,6 +14,31 @@ $(document).ready(function() {
             $(this).css('background', '#fff');
         }
     });
+
+    $('.slider-main-logos-image').click(function() {
+        $('.slider-main-logos-image').removeClass('fillBlue');
+        $(this).addClass('fillBlue');
+    });
+    $('.slider-main-logos-image-1').click(function() {
+        $('.slidem').fadeOut(0);
+        $('.slidem1').fadeIn(300);
+    });
+    $('.slider-main-logos-image-2').click(function() {
+        $('.slidem').fadeOut(0);
+        $('.slidem2').fadeIn(300);
+        $('.slider-main-buy-2').fadeIn(300);
+
+    });
+    $('.slider-main-logos-image-3').click(function() {
+        $('.slidem').fadeOut(0);
+        $('.slidem3').fadeIn(300);
+    });
+    $('.slider-main-logos-image-4').click(function() {
+        $('.slidem').fadeOut(0);
+        $('.slidem4').fadeIn(300);
+    });
+
+
 });
 
 jQuery(function($){
@@ -25,3 +50,5 @@ jQuery(function($){
         }
     });
 });
+
+

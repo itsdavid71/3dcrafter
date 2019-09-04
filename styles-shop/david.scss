@@ -16,6 +16,8 @@ $blue: #08e8de;
         }
         .slider-main-text {
             font-size: 64px;
+            position: relative;
+            z-index: 1000000;
         }
         .slider-main-logos {
             display: flex;
@@ -30,7 +32,9 @@ $blue: #08e8de;
                 color: #242424;
                 font-weight: bold;
             }
-            
+        }
+        .slider-main-buy-2, .slider-main-buy-3, .slider-main-buy-4 {
+            display: none;
         }
         .slider-main-images {
             position: relative;
@@ -40,7 +44,6 @@ $blue: #08e8de;
             padding: 300px;
         }
         .slider-main-back-logo {
-            background: url('../img-shop/logos/back-bukv-x.png') center center / contain no-repeat;
             position: absolute;
             padding: 350px;
             top: -70px;
@@ -283,7 +286,7 @@ textarea {
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 1000000;
     .popup-area {
         display: flex;
         height: 100vh;
@@ -359,4 +362,49 @@ h4 {
         height: 2px;
         background: #000;
     }
+}
+
+.animRight {
+    animation: fadeInRight 2s;
+}
+.animLeft {
+    animation: fadeInLeft 1s;
+}
+
+
+.dl1 {
+    animation-delay: .1s;
+}
+.dl2 {
+    animation-delay: .5s;
+}
+.dl3 {
+    animation-delay: .8s;
+}
+
+.slider-main-text-2, .slider-main-text-3, .slider-main-text-4 {
+    display: none;
+}
+.slider-main-images-2, .slider-main-images-3, .slider-main-images-4 {
+    display: none;
+}
+
+.svg-1 {
+    cursor: pointer;
+    fill: #666;
+    fill-rule: evenodd;
+    transition: .2s;
+    &:hover {
+        fill: $blue;
+    }
+}
+
+.fillBlue {
+    fill: $blue;
+}
+.db {
+    display: block;
+}
+.dn {
+    display: none;
 }

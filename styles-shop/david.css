@@ -27,6 +27,8 @@
 
 .slider-main .slider-main-content .slider-main-text {
   font-size: 64px;
+  position: relative;
+  z-index: 1000000;
 }
 
 .slider-main .slider-main-content .slider-main-logos {
@@ -54,6 +56,10 @@
   font-weight: bold;
 }
 
+.slider-main .slider-main-content .slider-main-buy-2, .slider-main .slider-main-content .slider-main-buy-3, .slider-main .slider-main-content .slider-main-buy-4 {
+  display: none;
+}
+
 .slider-main .slider-main-content .slider-main-images {
   position: relative;
 }
@@ -64,7 +70,6 @@
 }
 
 .slider-main .slider-main-content .slider-main-back-logo {
-  background: url("../img-shop/logos/back-bukv-x.png") center center/contain no-repeat;
   position: absolute;
   padding: 350px;
   top: -70px;
@@ -349,7 +354,7 @@ textarea:hover, textarea:active, textarea:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: 1000000;
 }
 
 .popup .popup-area {
@@ -439,5 +444,62 @@ h4 {
   position: absolute;
   height: 2px;
   background: #000;
+}
+
+.animRight {
+  -webkit-animation: fadeInRight 2s;
+          animation: fadeInRight 2s;
+}
+
+.animLeft {
+  -webkit-animation: fadeInLeft 1s;
+          animation: fadeInLeft 1s;
+}
+
+.dl1 {
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
+}
+
+.dl2 {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.dl3 {
+  -webkit-animation-delay: .8s;
+          animation-delay: .8s;
+}
+
+.slider-main-text-2, .slider-main-text-3, .slider-main-text-4 {
+  display: none;
+}
+
+.slider-main-images-2, .slider-main-images-3, .slider-main-images-4 {
+  display: none;
+}
+
+.svg-1 {
+  cursor: pointer;
+  fill: #666;
+  fill-rule: evenodd;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.svg-1:hover {
+  fill: #08e8de;
+}
+
+.fillBlue {
+  fill: #08e8de;
+}
+
+.db {
+  display: block;
+}
+
+.dn {
+  display: none;
 }
 /*# sourceMappingURL=david.css.map */
