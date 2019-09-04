@@ -271,10 +271,21 @@ footer {
                 }
                 .control-shop-button {
                     width: calc(100%/4);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    font-size: 14px;
                     height: 90px;
                     text-align: center;
                     border: 2px solid $blue;
                     margin: 5px;
+                    transition: .1s;
+                    cursor: pointer;
+                    &:hover {
+                        background: $blue;
+                        color: white;
+                    }
                 }
             }
             .control-shop-image-block {
@@ -314,11 +325,22 @@ footer {
                     box-sizing: border-box;
                 }
                 .tech-spec-shop-button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    font-size: 14px;
                     width: calc(100%/4);
                     height: 90px;
                     text-align: center;
                     border: 2px solid $blue;
                     margin: 5px;
+                    transition: .1s;
+                    cursor: pointer;
+                    &:hover {
+                        background: $blue;
+                        color: white;
+                    }
                 }
             }
             .tech-spec-shop-image-block {
