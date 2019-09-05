@@ -3,6 +3,10 @@ function order_button() {
 }
 
 $(document).ready(function() {
+    $('.tech-spec-shop-button').click(function() {
+        $('.modal').fadeIn(300);
+    });
+    
     $('.close-popup').click(function() {
         $('.popup').fadeOut(300);
     });
