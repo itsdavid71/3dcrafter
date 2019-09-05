@@ -7,7 +7,7 @@
                 <p>Новый принтер объединил в себе надежность легендарного PICASO 3D Designer, а также качество и стабильность новой платформы Х. Designer X всегда готов к работе. Высочайшее разрешение (слой от 0,01 мм) и производительность печати (до 100 см3/час) делают этот принтер уникальным.</p>
                 <div class="flex aic">
                     <div onclick="order_button()" class="main-button">ЗАКАЗАТЬ</div>
-                    <a href="shop.php" class="tdn"><div class="more-info-button">ПОДРОБНЕЕ</div></a>
+                    <a href="shop-x.php" class="tdn"><div class="more-info-button">ПОДРОБНЕЕ</div></a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -26,7 +26,7 @@
                 <p>Все достоинства линейки при нем: закрытый металлический корпус, надежные и откалиброванные направляющие, обеспечивающие высокую скорость и точность печати, автокалибровка стола, разогрев экструдера до 410 градусов Цельсия и, соответственно, поддержка огромного спектра материалов, в том числе инженерных.</p>
                 <div class="flex aic">
                     <div onclick="order_button()" class="main-button">ЗАКАЗАТЬ</div>
-                    <a href="shop.php" class="tdn"><div class="more-info-button">ПОДРОБНЕЕ</div></a>
+                    <a href="shop-xl.php" class="tdn"><div class="more-info-button">ПОДРОБНЕЕ</div></a>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
                 Больше не нужно выбирать между скоростью и качеством. Экономьте время и будьте уверены в результате.</p>
                 <div class="flex aic mt">
                     <div onclick="order_button()" class="main-button">ЗАКАЗАТЬ</div>
-                    <a href="shop.php" class="tdn"><div class="more-info-button">ПОДРОБНЕЕ</div></a>
+                    <a href="shop-x.php" class="tdn"><div class="more-info-button">ПОДРОБНЕЕ</div></a>
                 </div>
             </div>
             <div class="col-md-6">

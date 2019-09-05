@@ -7,6 +7,8 @@
 
 <?php include 'template-shop/popup-main.php' ?>
 
+<?php include 'template-shop/modal-main.php' ?>
+
 <?php include 'template-shop/shop/polygon-shop.php' ?>
 
 <?php include 'template-shop/shop/control-shop.php' ?>
