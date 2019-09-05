@@ -87,7 +87,7 @@ header .container .header-content .header_phone .header_phone_icon {
 
 .examples-main .container .examples-main-desc .examples-main-icon {
   display: inline-block;
-  padding: 50px;
+  padding: 40px;
   background: url("../img-shop/icons/3d-ico-1.svg") center center/contain no-repeat;
 }
 
@@ -297,7 +297,7 @@ footer .container .footer_blocks .footer_block .footer_social .footer_social_twi
 }
 
 .control-shop .container .control-shop-content .control-shop-text-block .control-shop-icon {
-  padding: 35px;
+  padding: 40px;
   display: inline;
   background: url("../img-shop/icons/3d-ico-13.svg") center center/contain no-repeat;
 }
@@ -364,7 +364,7 @@ footer .container .footer_blocks .footer_block .footer_social .footer_social_twi
 }
 
 .tech-spec-shop .container .tech-spec-shop-content .tech-spec-shop-text-block .tech-spec-shop-icon {
-  padding: 35px;
+  padding: 40px;
   display: inline;
   background: url("../img-shop/icons/3d-ico-12.svg") center center/contain no-repeat;
 }
@@ -442,7 +442,7 @@ footer .container .footer_blocks .footer_block .footer_social .footer_social_twi
 }
 
 .polygon-shop .container .polygon-shop-content .polygon-shop-text-block .polygon-shop-icon {
-  padding: 35px;
+  padding: 40px;
   display: inline;
   position: relative;
   top: -50px;
