@@ -436,10 +436,10 @@ footer {
         .desc-modal-block {
             width: 800px;
             color: $dark-grey;
-            min-height: 600px;
-            background: #fff;
+            min-height: 500px;
+            background-color: $light_grey;
             margin: 0 auto;
-            padding: 30px;
+            padding: 100px 30px;
             position: relative;
             .desc-modal-icon {
                 padding: 40px;

@@ -520,10 +520,10 @@ footer .container .footer_blocks .footer_block .footer_social .footer_social_twi
 .modal .modal-area .desc-modal-block {
   width: 800px;
   color: #666666;
-  min-height: 600px;
-  background: #fff;
+  min-height: 500px;
+  background-color: #f7f7f7;
   margin: 0 auto;
-  padding: 30px;
+  padding: 100px 30px;
   position: relative;
 }
 
