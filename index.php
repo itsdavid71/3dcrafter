@@ -13,6 +13,8 @@
 
 <?php include 'template-shop/contact-main.php' ?>
 
+<?php include 'template-shop/map-main.php' ?>
+
 <?php include 'template-shop/popup-main.php' ?>
 
 <?php include 'template-shop/footer.php' ?>

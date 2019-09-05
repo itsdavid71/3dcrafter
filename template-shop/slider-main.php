@@ -3,7 +3,7 @@
         <div class=" row slider-main-content">
             <div class="col-md-6">
                 <h1>3D принтеры PICASO 3D</h1>
-                <div class="animLeft">
+                <div class="animLeft" style="position: relative; z-index: 100000;">
                     <p class="slider-main-text slider-main-text-1 slidem slidem1 animLeft zi100">DESIGNER X</p>
                     <p class="slider-main-text slider-main-text-2 slidem slidem2 animLeft zi100">DESIGNER XL</p>
                     <p class="slider-main-text slider-main-text-3 slidem slidem3 animLeft zi100">DESIGNER X PRO</p>
