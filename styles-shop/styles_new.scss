@@ -395,9 +395,58 @@ footer {
     left: 0;
     right: 0;
     z-index: 1000000;
+    .modal-area {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        .close-modal {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            // background: #000;
+        cursor: pointer;
+        width: 10px;
+        height: 10px;
+        padding: 30px;
+    
+        .close-modal-stick-1 {
+            width: 30px;
+            transform: rotate(-45deg);
+            height: 2px;
+            position: absolute;
+            background: #000;
+        }
+        .close-modal-stick-2 {
+            width: 30px;
+            transform: rotate(45deg);
+            position: absolute;
+            height: 2px;
+            background: #000;
+        }
+        }
+        .desc-modal-left {
+            h4 {
+                color: $blue;
+                text-transform: uppercase;
+            }
+        }
+        .desc-modal-right {
+            padding-top: 30px;
+        }
+        .desc-modal-block {
+            width: 800px;
+            color: $dark-grey;
+            min-height: 600px;
+            background: #fff;
+            margin: 0 auto;
+            padding: 30px;
+            position: relative;
+            .desc-modal-icon {
+                padding: 40px;
+                background: url('../img-shop/icons/3d-ico-8.svg') center center / contain no-repeat;
+            }
+        }
+    }
 }
 
-.desc-modal {
-    display: none;
-}
     

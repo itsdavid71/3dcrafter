@@ -7,7 +7,7 @@
                 <p>Новая система направленной подачи пластика в печатающей головке и большой диапазон рабочих температур механических узлов - вот что позволяет Designer X работать с широким спектром материалов.</p>
                 <p>Печатайте любыми филаментами, в том числе инженерными термопластиками с высокой температурой плавления.</p>
                 <div class="tech-spec-shop-buttons">
-                    <div class="tech-spec-shop-button">3D-печать</div>
+                    <div class="tech-spec-shop-button button_first">3D-печать</div>
                     <div class="tech-spec-shop-button">Системы</div>
                     <div class="tech-spec-shop-button">Механика</div>
                     <div class="tech-spec-shop-button">Фищические характеристики</div>
