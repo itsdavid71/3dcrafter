@@ -7,7 +7,7 @@
                     <p class="slider-main-text slider-main-text-1 slidem slidem1 animLeft zi100">DESIGNER X</p>
                     <p class="slidem slidem1 animLeft">Высокопроизводительный 3D принтер профессионального класса,
                         инструмент для реализации любых идей.</p>
-                    <div class="slider-main-logos flex aic">
+                    <div class="slider-main-logos flex">
                         <div class="product-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" width="50" height="50">
                                 <defs>
