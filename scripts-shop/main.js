@@ -7,25 +7,25 @@ function burger() {
 }
 $(document).ready(function() {
 
-    $('.tech-spec-shop-button').click(function() {
-        $('.modal').fadeIn(300);
-    });
+    // $('.tech-spec-shop-button').click(function() {
+    //     $('.modal').fadeIn(300);
+    // });
 
-    $('.close-modal').click(function() {
-        $('.modal').fadeOut(300);
-    });
+    // $('.close-modal').click(function() {
+    //     $('.modal').fadeOut(300);
+    // });
 
-    $('.close-popup').click(function() {
-        $('.popup').fadeOut(300);
-    });
+    // $('.close-popup').click(function() {
+    //     $('.popup').fadeOut(300);
+    // });
 
-    $('input, textarea').blur(function() {                   
-        if( $(this).val() ) {                  
-            $(this).css('background', '#e9e9e9');
-        } else if (!$(this).val()) {
-            $(this).css('background', '#fff');
-        }
-    });
+    // $('input, textarea').blur(function() {                   
+    //     if( $(this).val() ) {                  
+    //         $(this).css('background', '#e9e9e9');
+    //     } else if (!$(this).val()) {
+    //         $(this).css('background', '#fff');
+    //     }
+    // });
 
     $('.slider-main-logos-image').click(function() {
         $('.slider-main-logos-image').removeClass('fillBlue');
@@ -35,10 +35,10 @@ $(document).ready(function() {
         $('.slidem').fadeOut(0);
         $('.slidem1').fadeIn(300);
     });
+    
     $('.slider-main-logos-image-2').click(function() {
         $('.slidem').fadeOut(0);
         $('.slidem2').fadeIn(300);
-        $('.slider-main-buy-2').fadeIn(300);
     });
     $('.slider-main-logos-image-3').click(function() {
         $('.slidem').fadeOut(0);
@@ -49,15 +49,14 @@ $(document).ready(function() {
         $('.slidem4').fadeIn(300);
     });
     
-    // mobile
-    $('.slider-main-logos-image-1').click(function() {
+//     // mobile
+    $('.slider-main-logos-image-mob-1').click(function() {
         $('.slidem').fadeOut(0);
         $('.slidem1-mob').fadeIn(300);
     });
     $('.slider-main-logos-image-mob-2').click(function() {
         $('.slidem').fadeOut(0);
         $('.slidem2-mob').fadeIn(300);
-        $('.slider-main-buy-2').fadeIn(300);
     });
     $('.slider-main-logos-image-mob-3').click(function() {
         $('.slidem').fadeOut(0);

@@ -14,16 +14,16 @@
                     <p class="slidem slidem3 animLeft dn">Больше не нужно выбирать между скоростью и качеством. Экономьте время и будьте уверены в результате.</p>
                     <p class="slidem slidem4 animLeft dn">Больше не нужно выбирать между скоростью и качеством. Экономьте время и будьте уверены в результате.</p>
 
-                    <div class="slider-main-images-mob slider-main-images-mob-1 slider-main-images-1 slidem1-mob slidem animRight">
+                    <div class="slider-main-images-mob slider-main-images-mob-1 slidem1-mob slidem animRight">
                         <div class="slider-main-img"></div>
                     </div>
-                    <div class="slider-main-images-mob slider-main-images-mob-2 slider-main-images-1 slidem2-mob slidem animRight">
+                    <div class="slider-main-images-mob slider-main-images-mob-2 slidem2-mob slidem animRight">
                         <div class="slider-main-img"></div>
                     </div>
-                    <div class="slider-main-images-mob slider-main-images-mob-3 slider-main-images-1 slidem3-mob slidem animRight">
+                    <div class="slider-main-images-mob slider-main-images-mob-3 slidem3-mob slidem animRight">
                         <div class="slider-main-img"></div>
                     </div>
-                    <div class="slider-main-images-mob slider-main-images-mob-4 slider-main-images-1 slidem4-mob slidem animRight">
+                    <div class="slider-main-images-mob slider-main-images-mob-4 slidem4-mob slidem animRight">
                         <div class="slider-main-img"></div>
                     </div>
                     
