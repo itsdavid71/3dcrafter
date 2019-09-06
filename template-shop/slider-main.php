@@ -59,25 +59,25 @@
 
                     <div class="slider-main-buy slider-main-buy-1 slidem1 slidem1-mob slidem">
                       <div class="flex">
-                            <div class="slider-main-price price">1 000</div>
+                            <div class="slider-main-price price">269 000</div>
                             <div onclick="order_button()" class="main-button">ЗАКАЗАТЬ</div>
                         </div>
                     </div>
                     <div class="slider-main-buy slider-main-buy-2 slidem2 slidem2-mob slidem">
                         <div class="flex">
-                            <div class="slider-main-price price">323 000</div>
+                            <div class="slider-main-price price">269 000</div>
                             <div onclick="order_button()" class="main-button">ЗАКАЗАТЬ</div>
                         </div>
                     </div>
                     <div class="slider-main-buy slider-main-buy-3 slidem3 slidem3-mob slidem">
                       <div class="flex">
-                            <div class="slider-main-price price">13211 000</div>
+                            <div class="slider-main-price price">269 000</div>
                             <div onclick="order_button()" class="main-button">ЗАКАЗАТЬ</div>
                         </div>
                     </div>
                     <div class="slider-main-buy slider-main-buy-4 slidem4 slidem4-mob slidem">
                        <div class="flex">
-                            <div class="slider-main-price price">33333 000</div>
+                            <div class="slider-main-price price">269 000</div>
                             <div onclick="order_button()" class="main-button">ЗАКАЗАТЬ</div>
                         </div>
                     </div>
