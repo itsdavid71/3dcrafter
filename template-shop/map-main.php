@@ -1,6 +1,5 @@
 <div class="map-main" id="map">
-<iframe src="https://snazzymaps.com/embed/182774" width="100%" height="600px" style="border:none;"></iframe>
-<div class="map-info">
+<iframe src="https://snazzymaps.com/embed/182774" width="100%" height="600px" style="border:none;"></iframe><div class="map-info">
         <h2>Контакты</h2>
         <p>г. Москва, Комсомольская площадь, 3/30с4, оф. 403</p>
         <p>E-mail: sale@3dcrafter.ru <br>
