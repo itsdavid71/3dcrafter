@@ -7,10 +7,6 @@ function burger() {
 }
 $(document).ready(function() {
 
-    $('.tech-spec-shop-button').click(function() {
-        $('.modal').fadeIn(300);
-    });
-
     $('.close-modal').click(function() {
         $('.modal').fadeOut(300);
     });
@@ -26,6 +22,7 @@ $(document).ready(function() {
             $(this).css('background', '#fff');
         }
     });
+    
     $('.shop-input').blur(function() {                   
         if( $(this).val() ) {                  
             $(this).css('background', '#fff');

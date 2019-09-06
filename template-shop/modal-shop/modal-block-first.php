@@ -1,4 +1,4 @@
-<div class="modal desc-modal">
+<!-- <div class="modal desc-modal">
     <div class="modal-area">
         <div class="row desc-modal-block">
             <div class="col-md-2 desc-modal-icon-block">
@@ -24,4 +24,4 @@
         </div>
         </div>
     </div>
-</div>
+</div> -->
