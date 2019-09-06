@@ -908,6 +908,17 @@ h4 {
   }
 }
 
+.owl-theme .owl-dots .owl-dot span {
+  border-radius: 0px;
+  background: transparent;
+  border: 1px solid #666666;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  border: 1px solid #000000;
+  background: transparent;
+}
+
 @media (max-width: 320px) {
   .slider-main .slider-main-content .slider-main-img {
     padding: 130px;
