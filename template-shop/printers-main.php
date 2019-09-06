@@ -50,7 +50,7 @@
                 </p>
                 <div class="flex aic mt">
                     <div onclick="order_button()" class="main-button">ЗАКАЗАТЬ</div>
-                    <a href="shop-x.php" class="tdn">
+                    <a href="shop-xpro.php" class="tdn">
                         <div class="more-info-button">ПОДРОБНЕЕ</div>
                     </a>
                 </div>
