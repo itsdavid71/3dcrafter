@@ -25,7 +25,7 @@
     <header>
         <div class="container pc-header">
             <div class="row header-content"> 
-                <div class="header_logo col-md-2"></div>
+                <a href="index.php" style="display: contents;"><div class="header_logo col-md-2"></div></a>
                 <div class="header_city col-md-2">
                     <div class="header_map_icon"></div>
                     <a>Москва</a>
