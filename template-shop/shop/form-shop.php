@@ -31,7 +31,7 @@
                     </div>
                     <div class="right-form">
                         <label>
-                            <textarea class="form-message" placeholder="Введите свой запрос"></textarea>
+                            <textarea style="background: #f7f7f7;" class="form-message" placeholder="Введите свой запрос"></textarea>
                             <span class="message-icon"></span>
                         </label>
                         <div class="form-buttons">
