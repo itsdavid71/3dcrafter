@@ -12,31 +12,31 @@
                 <form class="flex shop-form">
                     <div class="left-form">
                         <label>
-                            <input class="form-name" type="text" placeholder="Введите ваше имя">
+                            <input class="form-name shop-input" type="text" placeholder="Введите ваше имя">
                             <span class="man-icon"></span>
                         </label>
                         <label>
-                            <input class="form-name" type="text" placeholder="Введите ваш телефон">
+                            <input class="form-name shop-input" type="text" placeholder="Введите ваш телефон">
                             <span class="phone-icon"></span>
                         </label>
                         <label>
-                            <input class="form-name" type="text" placeholder="Введите ваш Email">
+                            <input class="form-name  shop-input" type="text" placeholder="Введите ваш Email">
                             <span class="email-icon"></span>
                         </label>
                         <div class="captcha-form">
                             <p>Сколько будет 3+2 =</p>
-                            <input type="number">
+                            <input class="shop-input" type="number">
                         </div>
                         
                     </div>
                     <div class="right-form">
                         <label>
-                            <textarea style="background: #f7f7f7;" class="form-message" placeholder="Введите свой запрос"></textarea>
+                            <textarea style="background: #f7f7f7" class="form-message shop-input" placeholder="Введите свой запрос"></textarea>
                             <span class="message-icon"></span>
                         </label>
                         <div class="form-buttons">
-                            <input class="form-submit" type="submit">
-                            <input class="form-files" type="button" value="Прикрепить файл">
+                            <input class="form-submit shop-input" type="submit">
+                            <input class="form-files shop-input" type="button" value="Прикрепить файл">
                         </div>
                     </div>
                 </form>

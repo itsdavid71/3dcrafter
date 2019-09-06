@@ -229,7 +229,7 @@
   margin-top: 50px;
 }
 
-.shop-form input {
+.shop-form input, .shop-form textarea {
   font-family: "CoreSansN45Regular";
   border-bottom: 1px solid grey;
   width: 100%;
@@ -242,8 +242,22 @@
   margin: 10px 0;
 }
 
-.shop-form input:hover, .shop-form input:active, .shop-form input:focus {
-  background: #e9e9e9;
+.shop-form input:hover, .shop-form input:active, .shop-form input:focus, .shop-form textarea:hover, .shop-form textarea:active, .shop-form textarea:focus {
+  background: #ffffff !important;
+}
+
+.shop-form .form-submit {
+  padding: 0;
+  background: #08e8de;
+  color: #fff;
+  font-family: "CoreSansNRW01-55Medium";
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
+}
+
+.shop-form .form-submit:hover {
+  background: #0fd6cc !important;
 }
 
 .contact-main {

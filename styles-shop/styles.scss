@@ -185,7 +185,7 @@ $blue: #08e8de;
 }
 
 .shop-form {
-    input {
+    input, textarea {
         font-family: "CoreSansN45Regular";
         border-bottom: 1px solid grey;
         width: 100%;
@@ -196,7 +196,20 @@ $blue: #08e8de;
         outline: none;
         margin: 10px 0;
         &:hover, &:active, &:focus {
-            background: #e9e9e9;
+            background: #ffffff !important;
+        }
+    }
+    .form-submit {
+        padding: 0;
+        background: $blue;
+        color: #fff;
+        font-family: "CoreSansNRW01-55Medium";
+
+        text-align: center;
+        border: none;
+        text-transform: uppercase;
+        &:hover {
+            background: #0fd6cc !important;
         }
     }
 }
