@@ -228,6 +228,7 @@ footer .container {
 footer .container .footer_copyright {
   text-align: center;
   padding: 25px 0px;
+  margin: 0;
 }
 
 footer .container .footer_blocks {
