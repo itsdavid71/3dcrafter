@@ -13,6 +13,9 @@
     <meta name="keywords" content="купить 3D принтер в Москве для 3д печати цена">
     <meta name="description" content="Продажа высокоточных 3D-принтеров в Москве от производителя Picaso 3D с бесплатным обучением и гарантией">
     <link rel="stylesheet" href="styles-shop/animate.css">
+    <link rel="stylesheet" href="styles-shop/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles-shop/owl.theme.default.min.css">
+    <link rel="stylesheet" href="styles-shop/magnific-popup.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles-shop/styles.css">
     <link rel="stylesheet" href="styles-shop/styles_new.css">
@@ -20,7 +23,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container pc-header">
             <div class="row header-content"> 
                 <div class="header_logo col-md-2"></div>
                 <div class="header_city col-md-2">
@@ -36,6 +39,29 @@
                     <a href="tel:+74950044187">+7 495 00-44-187</a>
                     <div class="header_phone_icon"></div>
                 </div>
+            </div>
+        </div>
+        <div class="container mob-header">
+            <div class="row header-content"> 
+                <div class="flex jcc aic" style="z-index: 10000">
+                    <div class="header_logo"></div>
+                    <div class="burger-mob" onclick="burger()">
+                        <div class="burger-stick-1"></div>
+                        <div class="burger-stick-2"></div>
+                        <div class="burger-stick-3"></div>
+                    </div>
+                    <div class="header_phone">
+                        <a href="tel:+74950044187">+7 495 00-44-187</a>
+                        <div class="header_phone_icon"></div>
+                    </div>
+                </div>
+                
+                <div class="header_menu_mob col-md-12">
+                    <a href="#">Компания</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Стоимость</a>
+                </div>
+                
             </div>
         </div>
     </header>
