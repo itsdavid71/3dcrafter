@@ -2,9 +2,9 @@
     <div class="container">
         <div class=" row slider-main-content">
             <div class="col-md-6">
-                <h1>3D принтеры PICASO 3D</h1>
+                <h2>3D принтеры PICASO 3D</h2>
                 <div class="animLeft" style="position: relative; z-index: 100000;">
-                    <p class="slider-main-text slider-main-text-1 slidem slidem1 animLeft zi100">DESIGNER X</p>
+                    <h1 class="slider-main-text slider-main-text-1 slidem slidem1 animLeft zi100">DESIGNER X</h1>
                     <p class="slidem slidem1 animLeft">Высокопроизводительный 3D принтер профессионального класса,
                         инструмент для реализации любых идей.</p>
                     <div class="slider-main-logos flex">
@@ -24,7 +24,6 @@
                             <div class="product-icon-logo logo-fourth"></div>
                             <p>Сопло с авто-калибровкой</p>
                         </div>
-                      
                     </div>
 
                     <div class="slider-main-buy slider-main-buy-1 slidem1 slidem">
