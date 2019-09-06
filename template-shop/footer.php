@@ -5,18 +5,18 @@
                 <div class="footer_logo"></div>
                 <p>+7 (495) 00-44-187<br>Москва, ул. 2-я Ямская, д.6<br>sale@3dcrafter.ru</p>
                 <div class="footer_social">
-                    <div class="footer_social_logo footer_social_inst"></div>
-                    <div class="footer_social_logo footer_social_fb"></div>
-                    <div class="footer_social_logo footer_social_vk"></div>
-                    <div class="footer_social_logo footer_social_twitter"></div>
+                    <a href="https://www.instagram.com/3dcrafter/"><div class="footer_social_logo footer_social_inst"></div></a>
+                    <a href="https://www.facebook.com/3Dcrafter.ru"><div class="footer_social_logo footer_social_fb"></div></a>
+                    <a href="https://vk.com/3dcrafter"><div class="footer_social_logo footer_social_vk"></div></a>
+                    <a href="https://t.me/materializator"><div class="footer_social_logo footer_social_twitter"></div></a>
                 </div>
             </div>
             <div class="footer_block col-md-3">
                 <p class="footer_title">МАГАЗИН</p>
-                <a href="#" class="footer_link">Designer X</a>
-                <a href="#" class="footer_link">Designer XPRO</a>
-                <a href="#" class="footer_link">Designer XL</a>
-                <a href="#" class="footer_link">Designer XLPRO</a>
+                <a href="shop-x.php" class="footer_link">Designer X</a>
+                <a href="shop-xpro.php" class="footer_link">Designer XPRO</a>
+                <a href="shop-xl.php" class="footer_link">Designer XL</a>
+                <a href="shop-xlpro.php" class="footer_link">Designer XLPRO</a>
                 <a href="#" class="footer_link">Комплектующие</a>
                 <a href="#" class="footer_link">Пластик</a>
             </div>
@@ -39,7 +39,7 @@
                 <a href="#" class="footer_link">Скидки</a>
             </div>
         </div>
-        <p class="footer_copyright">© 2014-2019 «3Dcrafter.ru»</p>
+        <p class="footer_copyright" style="margin: 0;">© 2014-2019 «3Dcrafter.ru»</p>
     </div>
 </footer>
     <script src="scripts-shop/jquery-3.4.1.min.js"></script>
