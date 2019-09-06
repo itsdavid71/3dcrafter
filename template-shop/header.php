@@ -51,7 +51,7 @@
                         <div class="burger-stick-3"></div>
                     </div>
                     <div class="header_phone">
-                        <a href="tel:+74950044187">+7 495 00-44-187</a>
+                        <!-- <a href="tel:+74950044187">+7 495 00-44-187</a> -->
                         <div class="header_phone_icon"></div>
                     </div>
                 </div>
